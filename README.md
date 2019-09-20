@@ -1,2 +1,10 @@
-# cloudcontrol-docker-image
-kubectl, doctl...
+# Cloudcontrol Docker Image
+
+Handy for CI/CD pipelines!
+
+Based on Alpine.
+
+Contains:
+ * bash
+ * kubectl
+ * doctl
