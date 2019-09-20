@@ -6,7 +6,8 @@ ENV TERRAFORM_VERSION="0.12.9"
 
 RUN apk add --no-cache ca-certificates \
     && apk add --no-cache -t deps curl \
-    && apk add --no-cache gettext
+    && apk add --no-cache gettext \
+    && apk add --no-cache bash
 
 RUN curl -L https://github.com/digitalocean/doctl/releases/download/v${DOCTL_VERSION}/doctl-${DOCTL_VERSION}-linux-amd64.tar.gz \
     | tar xz -C /bin
