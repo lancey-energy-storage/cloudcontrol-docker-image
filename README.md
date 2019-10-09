@@ -8,3 +8,4 @@ Contains:
  * bash
  * kubectl
  * doctl
+ * jq
