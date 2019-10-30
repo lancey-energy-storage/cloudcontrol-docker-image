@@ -1,8 +1,8 @@
 FROM alpine
 
-ENV KUBE_VERSION="v1.16.1"
-ENV DOCTL_VERSION="1.32.3"
-ENV TERRAFORM_VERSION="0.12.10"
+ENV KUBE_VERSION="v1.16.2"
+ENV DOCTL_VERSION="1.33.1"
+ENV TERRAFORM_VERSION="0.12.12"
 
 RUN apk add --no-cache ca-certificates \
     && apk add --no-cache -t deps curl \
