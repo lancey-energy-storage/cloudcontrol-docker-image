@@ -3,6 +3,7 @@ FROM alpine:3.10
 # Install packages from package repository
 RUN apk add --no-cache \
     bash \
+    gettext \
     curl \
     jq
 

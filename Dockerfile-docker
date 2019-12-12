@@ -3,6 +3,7 @@ FROM docker:stable
 # Install packages from package repository
 RUN apk add --no-cache \
     bash \
+    gettext \
     curl \
     jq
 
