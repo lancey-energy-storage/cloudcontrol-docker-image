@@ -2,14 +2,19 @@
 
 Handy for CI/CD pipelines!
 
-Based on Alpine.
-
 Contains:
  * bash
  * kubectl
  * doctl
  * terraform
  * jq
+
+## Tags
+
+| tag | what it is |
+| ---- | ---- |
+| latest, alpine | image is based on alpine (~130mB) |
+| docker | image is based on docker image so it contains the docker cli (~350mB) |
 
 ## Tip
 
