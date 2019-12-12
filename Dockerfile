@@ -17,7 +17,7 @@ RUN . versions \
 # Install kubectl
 RUN . versions \
     && echo "installing kubectl ${KUBE_VERSION}" \
-    && wget -q -O /usr/local/bin/kubectl "https://storage.googleapis.com/kubernetes-release/release/${KUBE_VERSION}/bin/linux/amd64/kubectl" \
+    && wget -q -O /usr/local/bin/kubectl "https://storage.googleapis.com/kubernetes-release/release/v${KUBE_VERSION}/bin/linux/amd64/kubectl" \
     && chmod +x /usr/local/bin/kubectl
 
 # Install terraform
